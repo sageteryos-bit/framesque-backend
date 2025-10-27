@@ -213,8 +213,6 @@ if __name__ == "__main__":
 4. Scroll to bottom
 5. Click **"Commit new file"** (green button)
 
-**✅ main.py created!**
-
 ---
 
 ### Step 3: Create `requirements.txt`
