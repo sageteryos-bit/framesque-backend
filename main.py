@@ -208,19 +208,3 @@ def get_top_frames_by_place(place_name: str, limit: int = 20):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-```
-
-4. Scroll to bottom
-5. Click **"Commit new file"** (green button)
-
----
-
-### Step 3: Create `requirements.txt`
-
-1. Click **"Add file"** → **"Create new file"**
-2. **Filename:** `requirements.txt`
-3. **Paste this:**
-```
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-python-multipart==0.0.6
