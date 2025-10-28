@@ -5,3 +5,7 @@ pillow
 torch
 torchvision
 transformers
+fastapi
+uvicorn
+python-multipart
+
