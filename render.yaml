@@ -1,9 +1,14 @@
-services:
-  - type: web
-    name: framesque-backend
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.9
+diff --git a/render.yaml b/render.yaml
+index b492441d55fdd0cffe72c887676260d2ee406cc0..1e0ef323b18f6d0094384bb30a21627cf5c69e0b 100644
+--- a/render.yaml
++++ b/render.yaml
+@@ -1,7 +1,8 @@
+ services:
+   - type: web
+     name: framesque-api
+-    env: python
++    runtime: python
++    pythonVersion: 3.12.4
+     buildCommand: pip install -r requirements.txt
+     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+     plan: free
