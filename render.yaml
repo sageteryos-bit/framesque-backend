@@ -1,7 +1,8 @@
 services:
   - type: web
     name: framesque-api
-    env: python
+    runtime: python
+    pythonVersion: 3.12.4
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     plan: free
