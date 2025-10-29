@@ -3,3 +3,7 @@ uvicorn
 python-multipart
 opencv-python-headless
 numpy
+torch
+transformers
+aesthetics-predictor
+Pillow
