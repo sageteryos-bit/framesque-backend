@@ -1,13 +1,16 @@
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
-python-multipart==0.0.9
-opencv-python-headless==4.8.1.78
-mediapipe==0.10.14
-openai==1.54.0
-numpy<2.0.0
-pillow==10.1.0
-python-dotenv==1.0.0
-torch==2.1.0
-torchvision==0.16.0
-transformers==4.35.0
-protobuf==3.20.3
+diff --git a/requirements.txt b/requirements.txt
+index 1e7a4cdb7a8de67fe45183cceace51edb10ce870..09484eab17c93e0192cd5262d4908f2aee10c29e 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -1,5 +1,6 @@
+-fastapi
+-uvicorn
+-python-multipart
+-opencv-python-headless
+-numpy
++fastapi==0.115.0
++uvicorn[standard]==0.30.6
++python-multipart==0.0.9
++opencv-python-headless==4.8.1.78
++numpy==1.26.4
++mediapipe==0.10.14
