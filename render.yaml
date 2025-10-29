@@ -1,7 +1,10 @@
 services:
   - type: web
-    name: your-app-name
+    name: framesque-backend
     runtime: python
+    plan: free
+    region: oregon
+    branch: main
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
     envVars:
